@@ -40,7 +40,7 @@ async function fillFormWithLLM(link, additionalContext = '') {
     
     // Optional: Wait for manual review before submitting
     console.log('Form filled. Press Ctrl+C to quit or wait 30 seconds for auto-submission');
-    await driver.sleep(30000);
+    await driver.sleep(2000);
     
     // Uncomment to submit the form automatically
     // const submitButton = await form.findElement(By.css('button[type="submit"]'));
