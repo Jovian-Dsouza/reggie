@@ -1,0 +1,18 @@
+{
+  "name": "reggie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jovian Dsouza (dsouzajovian123@gmail.com)",
+  "license": "ISC",
+  "description": "AI powered event registration assistant",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.85.4",
+    "selenium-webdriver": "^4.29.0"
+  }
+}
